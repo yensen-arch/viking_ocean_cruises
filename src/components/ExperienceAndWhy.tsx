@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Small Ship Advantage",
-  description: "Viking’s ocean ships are purpose-built for access—docking in central ports and offering more time ashore than traditional ocean cruises.",
+  title: "Small Ship Elegance",
+  description: "No more than 930 guests, with sleek Scandinavian design and all-balcony staterooms.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Destination-Focused Itineraries",
-  description: "Cruises emphasize cultural connection, with included excursions and curated onboard enrichment at every stop.",
+  title: "Cultural Discovery Focus",
+  description: "Port-rich itineraries emphasize local life, history, and enrichment.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Modern Nordic Elegance",
-  description: "Spacious staterooms, serene lounges, and inviting alfresco spaces reflect clean, minimalist design—creating a calm and welcoming onboard experience.",
+  title: "Included Shore Excursions",
+  description: "Every port includes a complimentary guided tour led by local experts.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "All-Inclusive Excellence",
-  description: "Enjoy included shore excursions, Wi-Fi, specialty dining, drinks with meals, and gratuities—making travel effortless and rewarding.",
+  title: "No Nickel-and-Diming",
+  description: "Wi-Fi, specialty dining, beer, wine, and tips are all part of the fare.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Viking Ocean Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
